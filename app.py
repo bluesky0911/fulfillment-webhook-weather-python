@@ -36,6 +36,9 @@ except ImportError:
     )
     import apiai
 
+CLIENT_ACCESS_TOKEN = '056b699cfc6e4ab2964f526fb2c7ce24'
+DEVELOPER_ACCESS_TOEKN = 'aa2079dc84f64d91aaa5beebb2207ed9'
+
 from flask import Flask
 from flask import request
 from flask import make_response
@@ -43,10 +46,22 @@ from flask import make_response
 # Flask app should start in global layout
 app = Flask(__name__)
 
-
 @app.route('/webhook', methods=['POST'])
 def webhook():
     req = request.get_json(silent=True, force=True)
+
+    #This is a testing code-------------------
+    json_data = json.dumps(req)
+    json_parse_data = json.loads(json_data)
+    
+    ai = apiai.ApiAI(CLIENT_ACCESS_TOKEN)
+    request = ai.text_request()
+    request.lang = 'en'
+    request.session_id = json_parse_data['sessionId']
+    request.query = "Hello this is danny"
+    response = request.getresponse()
+    print (response.read())
+    #This is a testing code-------------------
 
     print("Request:")
     print(json.dumps(req, indent=4))
