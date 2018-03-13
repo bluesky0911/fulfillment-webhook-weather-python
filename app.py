@@ -94,7 +94,7 @@ def makeWebhookResult(data):
 
     condition = item.get('condition')
     if condition is None:
-        return {}:
+        return {}
 
     # print(json.dumps(item, indent=4))
 
