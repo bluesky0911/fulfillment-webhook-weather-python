@@ -58,7 +58,7 @@ def webhook():
     request = ai.text_request()
     request.lang = 'en'
     request.session_id = json_parse_data['sessionId']
-    request.query = "Hello this is danny"
+    request.query = "hi, bot"
     response = request.getresponse()
     print (response.read())
     #This is a testing code-------------------
