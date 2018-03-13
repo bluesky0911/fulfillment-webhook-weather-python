@@ -37,12 +37,11 @@ app = Flask(__name__)
 def webhook():
     req = request.get_json(silent=True, force=True)
 
-#   print("Request:")
-#   print(json.dumps(req, indent=4))
-    print("this is test~~~~~Danyy")
+    print("Request:")
+    print(json.dumps(req, indent=4))
     #res = processRequest(req)
 
-    #res = json.dumps(res, indent=4)
+    res = json.dumps(res, indent=4)
     # print(res)
     r = make_response(res)
     r.headers['Content-Type'] = 'application/json'
@@ -101,7 +100,6 @@ def makeWebhookResult(data):
     speech = "Today the weather in " + location.get('city') + ": " + condition.get('text') + \
              ", And the temperature is " + condition.get('temp') + " " + units.get('temperature')
 
-    print("TEST!!!")
     print("Response:")
     print(speech)
 
