@@ -50,6 +50,7 @@ app = Flask(__name__)
 def webhook():
     req = request.get_json(silent=True, force=True)
 
+    print(json.dumps(req, indent=4))
     #This is a testing code-------------------
     json_data = json.dumps(req)
     json_parse_data = json.loads(json_data)

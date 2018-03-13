@@ -1,0 +1,316 @@
+Collecting future
+  Using cached future-0.16.0.tar.gz
+Installing collected packages: future
+  Running setup.py install for future: started
+    Running setup.py install for future: finished with status 'error'
+    Complete output from command /usr/bin/python -u -c "import setuptools, tokenize;__file__='/private/var/folders/cf/z2xb5ztj5nzg6s6h89tq00g80000gn/T/pip-build-Y47xf1/future/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /var/folders/cf/z2xb5ztj5nzg6s6h89tq00g80000gn/T/pip-49Veq8-record/install-record.txt --single-version-externally-managed --compile:
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    creating build/lib/future
+    copying src/future/__init__.py -> build/lib/future
+    creating build/lib/future/builtins
+    copying src/future/builtins/misc.py -> build/lib/future/builtins
+    copying src/future/builtins/newround.py -> build/lib/future/builtins
+    copying src/future/builtins/__init__.py -> build/lib/future/builtins
+    copying src/future/builtins/newnext.py -> build/lib/future/builtins
+    copying src/future/builtins/disabled.py -> build/lib/future/builtins
+    copying src/future/builtins/iterators.py -> build/lib/future/builtins
+    copying src/future/builtins/newsuper.py -> build/lib/future/builtins
+    creating build/lib/future/types
+    copying src/future/types/newint.py -> build/lib/future/types
+    copying src/future/types/newmemoryview.py -> build/lib/future/types
+    copying src/future/types/newopen.py -> build/lib/future/types
+    copying src/future/types/newobject.py -> build/lib/future/types
+    copying src/future/types/newdict.py -> build/lib/future/types
+    copying src/future/types/newbytes.py -> build/lib/future/types
+    copying src/future/types/__init__.py -> build/lib/future/types
+    copying src/future/types/newlist.py -> build/lib/future/types
+    copying src/future/types/newstr.py -> build/lib/future/types
+    copying src/future/types/newrange.py -> build/lib/future/types
+    creating build/lib/future/standard_library
+    copying src/future/standard_library/__init__.py -> build/lib/future/standard_library
+    creating build/lib/future/backports
+    copying src/future/backports/misc.py -> build/lib/future/backports
+    copying src/future/backports/_markupbase.py -> build/lib/future/backports
+    copying src/future/backports/__init__.py -> build/lib/future/backports
+    copying src/future/backports/socketserver.py -> build/lib/future/backports
+    copying src/future/backports/total_ordering.py -> build/lib/future/backports
+    copying src/future/backports/socket.py -> build/lib/future/backports
+    copying src/future/backports/datetime.py -> build/lib/future/backports
+    creating build/lib/future/backports/email
+    copying src/future/backports/email/_policybase.py -> build/lib/future/backports/email
+    copying src/future/backports/email/header.py -> build/lib/future/backports/email
+    copying src/future/backports/email/_encoded_words.py -> build/lib/future/backports/email
+    copying src/future/backports/email/_header_value_parser.py -> build/lib/future/backports/email
+    copying src/future/backports/email/policy.py -> build/lib/future/backports/email
+    copying src/future/backports/email/__init__.py -> build/lib/future/backports/email
+    copying src/future/backports/email/message.py -> build/lib/future/backports/email
+    copying src/future/backports/email/encoders.py -> build/lib/future/backports/email
+    copying src/future/backports/email/parser.py -> build/lib/future/backports/email
+    copying src/future/backports/email/generator.py -> build/lib/future/backports/email
+    copying src/future/backports/email/utils.py -> build/lib/future/backports/email
+    copying src/future/backports/email/charset.py -> build/lib/future/backports/email
+    copying src/future/backports/email/iterators.py -> build/lib/future/backports/email
+    copying src/future/backports/email/quoprimime.py -> build/lib/future/backports/email
+    copying src/future/backports/email/errors.py -> build/lib/future/backports/email
+    copying src/future/backports/email/feedparser.py -> build/lib/future/backports/email
+    copying src/future/backports/email/_parseaddr.py -> build/lib/future/backports/email
+    copying src/future/backports/email/base64mime.py -> build/lib/future/backports/email
+    copying src/future/backports/email/headerregistry.py -> build/lib/future/backports/email
+    creating build/lib/future/backports/email/mime
+    copying src/future/backports/email/mime/multipart.py -> build/lib/future/backports/email/mime
+    copying src/future/backports/email/mime/__init__.py -> build/lib/future/backports/email/mime
+    copying src/future/backports/email/mime/message.py -> build/lib/future/backports/email/mime
+    copying src/future/backports/email/mime/application.py -> build/lib/future/backports/email/mime
+    copying src/future/backports/email/mime/nonmultipart.py -> build/lib/future/backports/email/mime
+    copying src/future/backports/email/mime/text.py -> build/lib/future/backports/email/mime
+    copying src/future/backports/email/mime/audio.py -> build/lib/future/backports/email/mime
+    copying src/future/backports/email/mime/image.py -> build/lib/future/backports/email/mime
+    copying src/future/backports/email/mime/base.py -> build/lib/future/backports/email/mime
+    creating build/lib/future/backports/html
+    copying src/future/backports/html/__init__.py -> build/lib/future/backports/html
+    copying src/future/backports/html/parser.py -> build/lib/future/backports/html
+    copying src/future/backports/html/entities.py -> build/lib/future/backports/html
+    creating build/lib/future/backports/http
+    copying src/future/backports/http/cookies.py -> build/lib/future/backports/http
+    copying src/future/backports/http/server.py -> build/lib/future/backports/http
+    copying src/future/backports/http/client.py -> build/lib/future/backports/http
+    copying src/future/backports/http/__init__.py -> build/lib/future/backports/http
+    copying src/future/backports/http/cookiejar.py -> build/lib/future/backports/http
+    creating build/lib/future/backports/test
+    copying src/future/backports/test/support.py -> build/lib/future/backports/test
+    copying src/future/backports/test/ssl_servers.py -> build/lib/future/backports/test
+    copying src/future/backports/test/__init__.py -> build/lib/future/backports/test
+    copying src/future/backports/test/pystone.py -> build/lib/future/backports/test
+    creating build/lib/future/backports/urllib
+    copying src/future/backports/urllib/error.py -> build/lib/future/backports/urllib
+    copying src/future/backports/urllib/request.py -> build/lib/future/backports/urllib
+    copying src/future/backports/urllib/__init__.py -> build/lib/future/backports/urllib
+    copying src/future/backports/urllib/response.py -> build/lib/future/backports/urllib
+    copying src/future/backports/urllib/robotparser.py -> build/lib/future/backports/urllib
+    copying src/future/backports/urllib/parse.py -> build/lib/future/backports/urllib
+    creating build/lib/future/backports/xmlrpc
+    copying src/future/backports/xmlrpc/server.py -> build/lib/future/backports/xmlrpc
+    copying src/future/backports/xmlrpc/client.py -> build/lib/future/backports/xmlrpc
+    copying src/future/backports/xmlrpc/__init__.py -> build/lib/future/backports/xmlrpc
+    creating build/lib/future/moves
+    copying src/future/moves/queue.py -> build/lib/future/moves
+    copying src/future/moves/_dummy_thread.py -> build/lib/future/moves
+    copying src/future/moves/copyreg.py -> build/lib/future/moves
+    copying src/future/moves/_markupbase.py -> build/lib/future/moves
+    copying src/future/moves/builtins.py -> build/lib/future/moves
+    copying src/future/moves/subprocess.py -> build/lib/future/moves
+    copying src/future/moves/__init__.py -> build/lib/future/moves
+    copying src/future/moves/socketserver.py -> build/lib/future/moves
+    copying src/future/moves/winreg.py -> build/lib/future/moves
+    copying src/future/moves/configparser.py -> build/lib/future/moves
+    copying src/future/moves/reprlib.py -> build/lib/future/moves
+    copying src/future/moves/collections.py -> build/lib/future/moves
+    copying src/future/moves/pickle.py -> build/lib/future/moves
+    copying src/future/moves/_thread.py -> build/lib/future/moves
+    copying src/future/moves/sys.py -> build/lib/future/moves
+    copying src/future/moves/itertools.py -> build/lib/future/moves
+    creating build/lib/future/moves/dbm
+    copying src/future/moves/dbm/ndbm.py -> build/lib/future/moves/dbm
+    copying src/future/moves/dbm/gnu.py -> build/lib/future/moves/dbm
+    copying src/future/moves/dbm/__init__.py -> build/lib/future/moves/dbm
+    copying src/future/moves/dbm/dumb.py -> build/lib/future/moves/dbm
+    creating build/lib/future/moves/html
+    copying src/future/moves/html/__init__.py -> build/lib/future/moves/html
+    copying src/future/moves/html/parser.py -> build/lib/future/moves/html
+    copying src/future/moves/html/entities.py -> build/lib/future/moves/html
+    creating build/lib/future/moves/http
+    copying src/future/moves/http/cookies.py -> build/lib/future/moves/http
+    copying src/future/moves/http/server.py -> build/lib/future/moves/http
+    copying src/future/moves/http/client.py -> build/lib/future/moves/http
+    copying src/future/moves/http/__init__.py -> build/lib/future/moves/http
+    copying src/future/moves/http/cookiejar.py -> build/lib/future/moves/http
+    creating build/lib/future/moves/test
+    copying src/future/moves/test/support.py -> build/lib/future/moves/test
+    copying src/future/moves/test/__init__.py -> build/lib/future/moves/test
+    creating build/lib/future/moves/tkinter
+    copying src/future/moves/tkinter/scrolledtext.py -> build/lib/future/moves/tkinter
+    copying src/future/moves/tkinter/colorchooser.py -> build/lib/future/moves/tkinter
+    copying src/future/moves/tkinter/commondialog.py -> build/lib/future/moves/tkinter
+    copying src/future/moves/tkinter/messagebox.py -> build/lib/future/moves/tkinter
+    copying src/future/moves/tkinter/dialog.py -> build/lib/future/moves/tkinter
+    copying src/future/moves/tkinter/constants.py -> build/lib/future/moves/tkinter
+    copying src/future/moves/tkinter/dnd.py -> build/lib/future/moves/tkinter
+    copying src/future/moves/tkinter/__init__.py -> build/lib/future/moves/tkinter
+    copying src/future/moves/tkinter/ttk.py -> build/lib/future/moves/tkinter
+    copying src/future/moves/tkinter/filedialog.py -> build/lib/future/moves/tkinter
+    copying src/future/moves/tkinter/font.py -> build/lib/future/moves/tkinter
+    copying src/future/moves/tkinter/tix.py -> build/lib/future/moves/tkinter
+    copying src/future/moves/tkinter/simpledialog.py -> build/lib/future/moves/tkinter
+    creating build/lib/future/moves/urllib
+    copying src/future/moves/urllib/error.py -> build/lib/future/moves/urllib
+    copying src/future/moves/urllib/request.py -> build/lib/future/moves/urllib
+    copying src/future/moves/urllib/__init__.py -> build/lib/future/moves/urllib
+    copying src/future/moves/urllib/response.py -> build/lib/future/moves/urllib
+    copying src/future/moves/urllib/robotparser.py -> build/lib/future/moves/urllib
+    copying src/future/moves/urllib/parse.py -> build/lib/future/moves/urllib
+    creating build/lib/future/moves/xmlrpc
+    copying src/future/moves/xmlrpc/server.py -> build/lib/future/moves/xmlrpc
+    copying src/future/moves/xmlrpc/client.py -> build/lib/future/moves/xmlrpc
+    copying src/future/moves/xmlrpc/__init__.py -> build/lib/future/moves/xmlrpc
+    creating build/lib/future/tests
+    copying src/future/tests/__init__.py -> build/lib/future/tests
+    copying src/future/tests/base.py -> build/lib/future/tests
+    creating build/lib/future/utils
+    copying src/future/utils/__init__.py -> build/lib/future/utils
+    copying src/future/utils/surrogateescape.py -> build/lib/future/utils
+    creating build/lib/past
+    copying src/past/__init__.py -> build/lib/past
+    creating build/lib/past/builtins
+    copying src/past/builtins/noniterators.py -> build/lib/past/builtins
+    copying src/past/builtins/misc.py -> build/lib/past/builtins
+    copying src/past/builtins/__init__.py -> build/lib/past/builtins
+    creating build/lib/past/types
+    copying src/past/types/basestring.py -> build/lib/past/types
+    copying src/past/types/__init__.py -> build/lib/past/types
+    copying src/past/types/olddict.py -> build/lib/past/types
+    copying src/past/types/oldstr.py -> build/lib/past/types
+    creating build/lib/past/utils
+    copying src/past/utils/__init__.py -> build/lib/past/utils
+    creating build/lib/past/translation
+    copying src/past/translation/__init__.py -> build/lib/past/translation
+    creating build/lib/libfuturize
+    copying src/libfuturize/__init__.py -> build/lib/libfuturize
+    copying src/libfuturize/main.py -> build/lib/libfuturize
+    copying src/libfuturize/fixer_util.py -> build/lib/libfuturize
+    creating build/lib/libfuturize/fixes
+    copying src/libfuturize/fixes/fix_oldstr_wrap.py -> build/lib/libfuturize/fixes
+    copying src/libfuturize/fixes/fix_division.py -> build/lib/libfuturize/fixes
+    copying src/libfuturize/fixes/fix_print.py -> build/lib/libfuturize/fixes
+    copying src/libfuturize/fixes/fix_add__future__imports_except_unicode_literals.py -> build/lib/libfuturize/fixes
+    copying src/libfuturize/fixes/fix_cmp.py -> build/lib/libfuturize/fixes
+    copying src/libfuturize/fixes/fix_division_safe.py -> build/lib/libfuturize/fixes
+    copying src/libfuturize/fixes/fix_next_call.py -> build/lib/libfuturize/fixes
+    copying src/libfuturize/fixes/fix_metaclass.py -> build/lib/libfuturize/fixes
+    copying src/libfuturize/fixes/__init__.py -> build/lib/libfuturize/fixes
+    copying src/libfuturize/fixes/fix_unicode_literals_import.py -> build/lib/libfuturize/fixes
+    copying src/libfuturize/fixes/fix_bytes.py -> build/lib/libfuturize/fixes
+    copying src/libfuturize/fixes/fix_future_builtins.py -> build/lib/libfuturize/fixes
+    copying src/libfuturize/fixes/fix_xrange_with_import.py -> build/lib/libfuturize/fixes
+    copying src/libfuturize/fixes/fix_raise.py -> build/lib/libfuturize/fixes
+    copying src/libfuturize/fixes/fix_object.py -> build/lib/libfuturize/fixes
+    copying src/libfuturize/fixes/fix_UserDict.py -> build/lib/libfuturize/fixes
+    copying src/libfuturize/fixes/fix_order___future__imports.py -> build/lib/libfuturize/fixes
+    copying src/libfuturize/fixes/fix_future_standard_library.py -> build/lib/libfuturize/fixes
+    copying src/libfuturize/fixes/fix_future_standard_library_urllib.py -> build/lib/libfuturize/fixes
+    copying src/libfuturize/fixes/fix_basestring.py -> build/lib/libfuturize/fixes
+    copying src/libfuturize/fixes/fix_execfile.py -> build/lib/libfuturize/fixes
+    copying src/libfuturize/fixes/fix_unicode_keep_u.py -> build/lib/libfuturize/fixes
+    copying src/libfuturize/fixes/fix_remove_old__future__imports.py -> build/lib/libfuturize/fixes
+    copying src/libfuturize/fixes/fix_absolute_import.py -> build/lib/libfuturize/fixes
+    copying src/libfuturize/fixes/fix_print_with_import.py -> build/lib/libfuturize/fixes
+    creating build/lib/libpasteurize
+    copying src/libpasteurize/__init__.py -> build/lib/libpasteurize
+    copying src/libpasteurize/main.py -> build/lib/libpasteurize
+    creating build/lib/libpasteurize/fixes
+    copying src/libpasteurize/fixes/fix_throw.py -> build/lib/libpasteurize/fixes
+    copying src/libpasteurize/fixes/fix_division.py -> build/lib/libpasteurize/fixes
+    copying src/libpasteurize/fixes/fix_add_future_standard_library_import.py -> build/lib/libpasteurize/fixes
+    copying src/libpasteurize/fixes/fix_kwargs.py -> build/lib/libpasteurize/fixes
+    copying src/libpasteurize/fixes/fix_imports2.py -> build/lib/libpasteurize/fixes
+    copying src/libpasteurize/fixes/fix_metaclass.py -> build/lib/libpasteurize/fixes
+    copying src/libpasteurize/fixes/fix_fullargspec.py -> build/lib/libpasteurize/fixes
+    copying src/libpasteurize/fixes/fix_annotations.py -> build/lib/libpasteurize/fixes
+    copying src/libpasteurize/fixes/fix_printfunction.py -> build/lib/libpasteurize/fixes
+    copying src/libpasteurize/fixes/fix_imports.py -> build/lib/libpasteurize/fixes
+    copying src/libpasteurize/fixes/__init__.py -> build/lib/libpasteurize/fixes
+    copying src/libpasteurize/fixes/fix_features.py -> build/lib/libpasteurize/fixes
+    copying src/libpasteurize/fixes/fix_future_builtins.py -> build/lib/libpasteurize/fixes
+    copying src/libpasteurize/fixes/fix_memoryview.py -> build/lib/libpasteurize/fixes
+    copying src/libpasteurize/fixes/fix_add_all__future__imports.py -> build/lib/libpasteurize/fixes
+    copying src/libpasteurize/fixes/fix_raise.py -> build/lib/libpasteurize/fixes
+    copying src/libpasteurize/fixes/fix_add_all_future_builtins.py -> build/lib/libpasteurize/fixes
+    copying src/libpasteurize/fixes/fix_next.py -> build/lib/libpasteurize/fixes
+    copying src/libpasteurize/fixes/fix_newstyle.py -> build/lib/libpasteurize/fixes
+    copying src/libpasteurize/fixes/fix_raise_.py -> build/lib/libpasteurize/fixes
+    copying src/libpasteurize/fixes/fix_getcwd.py -> build/lib/libpasteurize/fixes
+    copying src/libpasteurize/fixes/feature_base.py -> build/lib/libpasteurize/fixes
+    copying src/libpasteurize/fixes/fix_unpacking.py -> build/lib/libpasteurize/fixes
+    creating build/lib/builtins
+    copying src/builtins/__init__.py -> build/lib/builtins
+    creating build/lib/copyreg
+    copying src/copyreg/__init__.py -> build/lib/copyreg
+    creating build/lib/html
+    copying src/html/__init__.py -> build/lib/html
+    copying src/html/parser.py -> build/lib/html
+    copying src/html/entities.py -> build/lib/html
+    creating build/lib/http
+    copying src/http/cookies.py -> build/lib/http
+    copying src/http/server.py -> build/lib/http
+    copying src/http/client.py -> build/lib/http
+    copying src/http/__init__.py -> build/lib/http
+    copying src/http/cookiejar.py -> build/lib/http
+    creating build/lib/queue
+    copying src/queue/__init__.py -> build/lib/queue
+    creating build/lib/reprlib
+    copying src/reprlib/__init__.py -> build/lib/reprlib
+    creating build/lib/socketserver
+    copying src/socketserver/__init__.py -> build/lib/socketserver
+    creating build/lib/tkinter
+    copying src/tkinter/scrolledtext.py -> build/lib/tkinter
+    copying src/tkinter/colorchooser.py -> build/lib/tkinter
+    copying src/tkinter/commondialog.py -> build/lib/tkinter
+    copying src/tkinter/messagebox.py -> build/lib/tkinter
+    copying src/tkinter/dialog.py -> build/lib/tkinter
+    copying src/tkinter/constants.py -> build/lib/tkinter
+    copying src/tkinter/dnd.py -> build/lib/tkinter
+    copying src/tkinter/__init__.py -> build/lib/tkinter
+    copying src/tkinter/ttk.py -> build/lib/tkinter
+    copying src/tkinter/filedialog.py -> build/lib/tkinter
+    copying src/tkinter/font.py -> build/lib/tkinter
+    copying src/tkinter/tix.py -> build/lib/tkinter
+    copying src/tkinter/simpledialog.py -> build/lib/tkinter
+    creating build/lib/winreg
+    copying src/winreg/__init__.py -> build/lib/winreg
+    creating build/lib/xmlrpc
+    copying src/xmlrpc/server.py -> build/lib/xmlrpc
+    copying src/xmlrpc/client.py -> build/lib/xmlrpc
+    copying src/xmlrpc/__init__.py -> build/lib/xmlrpc
+    creating build/lib/_dummy_thread
+    copying src/_dummy_thread/__init__.py -> build/lib/_dummy_thread
+    creating build/lib/_markupbase
+    copying src/_markupbase/__init__.py -> build/lib/_markupbase
+    creating build/lib/_thread
+    copying src/_thread/__init__.py -> build/lib/_thread
+    running egg_info
+    writing src/future.egg-info/PKG-INFO
+    writing top-level names to src/future.egg-info/top_level.txt
+    writing dependency_links to src/future.egg-info/dependency_links.txt
+    writing entry points to src/future.egg-info/entry_points.txt
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'src/future.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no files found matching '*.au' under directory 'tests'
+    warning: no files found matching '*.gif' under directory 'tests'
+    warning: no files found matching '*.txt' under directory 'tests'
+    writing manifest file 'src/future.egg-info/SOURCES.txt'
+    copying src/future/backports/test/badcert.pem -> build/lib/future/backports/test
+    copying src/future/backports/test/badkey.pem -> build/lib/future/backports/test
+    copying src/future/backports/test/dh512.pem -> build/lib/future/backports/test
+    copying src/future/backports/test/https_svn_python_org_root.pem -> build/lib/future/backports/test
+    copying src/future/backports/test/keycert.passwd.pem -> build/lib/future/backports/test
+    copying src/future/backports/test/keycert.pem -> build/lib/future/backports/test
+    copying src/future/backports/test/keycert2.pem -> build/lib/future/backports/test
+    copying src/future/backports/test/nokia.pem -> build/lib/future/backports/test
+    copying src/future/backports/test/nullbytecert.pem -> build/lib/future/backports/test
+    copying src/future/backports/test/nullcert.pem -> build/lib/future/backports/test
+    copying src/future/backports/test/sha256.pem -> build/lib/future/backports/test
+    copying src/future/backports/test/ssl_cert.pem -> build/lib/future/backports/test
+    copying src/future/backports/test/ssl_key.passwd.pem -> build/lib/future/backports/test
+    copying src/future/backports/test/ssl_key.pem -> build/lib/future/backports/test
+    creating build/lib/past/tests
+    copying src/past/tests/__init__.py -> build/lib/past/tests
+    running install_lib
+    creating /Library/Python/2.7/site-packages/copyreg
+    error: could not create '/Library/Python/2.7/site-packages/copyreg': Permission denied
+    
+    ----------------------------------------
